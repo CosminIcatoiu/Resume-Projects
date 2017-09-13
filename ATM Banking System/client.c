@@ -16,8 +16,8 @@ int main(int argc, char ** argv) {
 	int sd_udp, sd_tcp, rw;
 	struct sockaddr_in udp_addr, tcp_addr;
 	fd_set temp_fs;
-    fd_set read_fs;
-    int fdmax, id;
+	fd_set read_fs;
+	int fdmax, id;
 	char buf[BUFLEN],copy[BUFLEN];
 	FILE * fid;
 
